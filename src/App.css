@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+.back-grid {
+  width: 31rem;
+  height: 31rem;
+  background-color: #2ecc71;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.squares {
+  height: 10.2rem;
+  width: 10.2rem;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 2.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.squares:hover {
+  background-color: #61ee9c;
+  cursor: pointer;
+}
